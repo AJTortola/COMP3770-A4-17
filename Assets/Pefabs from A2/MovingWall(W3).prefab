@@ -272,7 +272,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1fbfe363f08817448922f89fe7eeabac, type: 2}
+  - {fileID: 2100000, guid: 2e701f9d6b8aa304c93f2af59c1ee5d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -325,12 +325,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6343928354703528776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac37cafb4cad7d4eaabce6a4e3de861, type: 3}
+  m_Script: {fileID: 11500000, guid: b4435a9d3376e8b48942a995a91ffba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pos1: {x: 67, y: 17.5, z: -29.5}
-  pos2: {x: 81, y: 17.5, z: -29.5}
-  speed: 1.2
+  pos1: {x: 38, y: 1, z: -28}
+  pos2: {x: 48, y: 1, z: -28}
+  speed: 1
 --- !u!1 &6343928354923277811
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,7 +392,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a053b3b7164a1246abbd4037068167c, type: 2}
+  - {fileID: 2100000, guid: 84b5f65af1a2ada4eb4fe34bffd5f05b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -436,7 +436,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6343928354923277811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a15c7cf9b6e2edf46b32b82d73bb17cf, type: 3}
+  m_Script: {fileID: 11500000, guid: f626bd83136b1ad4db14a13e13559c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 6343928356246690135}
   - component: {fileID: 6343928356246690136}
   - component: {fileID: 6343928356246690137}
-  - component: {fileID: 6343928356246690138}
+  - component: {fileID: 6443576491079866670}
   m_Layer: 0
   m_Name: DeathZone (W4)
   m_TagString: Untagged
@@ -502,7 +502,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8a053b3b7164a1246abbd4037068167c, type: 2}
+  - {fileID: 2100000, guid: 84b5f65af1a2ada4eb4fe34bffd5f05b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -537,7 +537,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6343928356246690138
+--- !u!114 &6443576491079866670
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -546,7 +546,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6343928356246690140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a15c7cf9b6e2edf46b32b82d73bb17cf, type: 3}
+  m_Script: {fileID: 11500000, guid: f626bd83136b1ad4db14a13e13559c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
